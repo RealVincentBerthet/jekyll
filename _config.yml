@@ -13,51 +13,51 @@ permalink: /:title/
 # Authors
 authors:
   vincent:
-    name: Vincent  
+    name: Bichente  
     avatar: 'assets/images/avatars/vincent.jpg'
     email: vincent.berthet42@gmail.com
-    description: "@TODO"
+    description: "Larbin commis d'office"
   moman:
     name: Moman
     avatar: 'assets/images/avatars/moman.jpg'
     email: marie.joelle@hotmail.fr
-    description: "@TODO"
+    description: "Maître étoilée"
   popa:
     name: Popa  
     avatar: 'assets/images/avatars/popa.jpg'
-    description: "@TODO"
+    description: "Réincarnation de Mac Giver"
   mamie:
-    name: Mamie  
+    name: Mamie Glue  
     avatar: 'assets/images/avatars/mamie.jpg'
-    description: "@TODO"
+    description: "Oh mamie, mamie glueeee"
   cedric:
-    name: Cédric
+    name: Dieu
     avatar: 'assets/images/avatars/cedric.jpg'
     email: cedric.berthet@gmail.com
-    description: "@TODO"
+    description: "Dieu, simple, basique"
   carole:
     name: Carole
     avatar: 'assets/images/avatars/carole.jpg'
     email: carole.cerdan@gmail.com
-    description: "@TODO"
+    description: "Spécialiste foie gras officielle"
   elise:
     name: Elise
     avatar: 'assets/images/avatars/elise.jpg'
-    description: "@TODO"
+    description: "Le monstre"
   guillaume:
-    name: Guillaume
+    name: Guiguilamoroso
     avatar: 'assets/images/avatars/guillaume.jpg'
     email: guillaume.berthet@gmail.com
-    description: "@TODO"
+    description: ""
   rita:
-    name: Rita
+    name: Rita di Portuguesh
     avatar: 'https://scontent-mrs2-1.xx.fbcdn.net/v/t1.0-9/42828740_10156917921017932_2239744252802236416_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=V8I-k2qDQigAX_UpeQC&_nc_ht=scontent-mrs2-1.xx&oh=634f0421cf224c6cedcc71845a325084&oe=5FDA20AC'
-    description: "@TODO"
+    description: "CR7 > Messi"
   manon:
     name: Nounouille
     avatar: 'assets/images/avatars/manon.jpg'
     email: manon.berthet@gmail.com
-    description: "@TODO"
+    description: "Aime les plantes"
 
 # Plugins
 plugins:

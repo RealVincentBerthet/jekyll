@@ -126,7 +126,8 @@
             </div>
 		</div>
 		<div class="col-md-8 p-5 align-self-center text-center">
-            {% assign tags_list = site.tags %}
+            {% assign sorted_tags = site.tags | sort %}
+            {% assign tags_list = sorted_tags %}
             {% if tags_list.first[0] == null %}
                 {% for tag in tags_list %}
                     <a class="mt-1 mb-1" href="{{site.baseurl}}/tags#{{ tag | url_escape | strip | replace: ' ', '-' }}">{{ tag | camelcase }} ({{ site.tags[tag].size }})</a>
