@@ -1,4 +1,4 @@
-I",A
+I"N@
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
@@ -75,7 +75,7 @@
                                 
                                 </span>
                                 <span class="author-meta">
-                                <span class="post-name"><a target="_blank" href="https://realvincentberthet.github.io/vberthet/">Vincent</a></span><br />
+                                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Vincent</a></span><br />
                                 
                                 <span class="post-date">15 Nov 2020</span>
                                 </span>
@@ -176,11 +176,9 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Vincent" />
-                
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://realvincentberthet.github.io/vberthet/">Vincent</a></span><br />
+                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#toto"></a></span><br />
                 
                 <span class="post-date">16 Nov 2020</span>
                 </span>
@@ -245,7 +243,7 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://realvincentberthet.github.io/vberthet/">Vincent</a></span><br />
+                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Vincent</a></span><br />
                 
                 <span class="post-date">15 Nov 2020</span>
                 </span>
@@ -335,7 +333,7 @@
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a target="_blank" href="https://realvincentberthet.github.io/vberthet/">Vincent</a></span><br />
+                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Vincent</a></span><br />
                 
                 <span class="post-date">09 Nov 2020</span>
                 </span>

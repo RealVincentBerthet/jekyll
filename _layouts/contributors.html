@@ -1,20 +1,22 @@
 ---
-title: "Tags"
+title: "Contributors"
 layout: default
-permalink: "/tags.html"
+permalink: "/contributors.html"
 ---
 
 <div class="row listrecent">
-    {% for tag in site.tags %}
+    {% for contributor in site.authors %}
     <div class="section-title col-md-12 mt-4">
-    <h2 id="{{ tag[0] | replace: " ","-" }}">#<span class="text-capitalize">{{ tag[0] }}</span></h2>
+    <h2 id="{{ contributor[0] | replace: " ","-" }}">@<span class="text-capitalize">{{ contributor[1].name }}</span></h2>
     </div>
-    
-    {% assign pages_list = tag[1] %}
+
+    {% assign pages_list = site.posts %}
     {% for post in pages_list %}
     {% if post.title != null %}
     {% if group == null or group == post.group %}
-    {% include postbox.html %}
+    {% if post.author ==contributor[0] %}
+        {% include postbox.html %}
+    {% endif %}
     {% endif %}
     {% endif %}
     {% endfor %}

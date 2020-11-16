@@ -1,6 +1,6 @@
 # Site
-name: "Chez Beber"
-title: "Chez Beber"
+name: "Chez Bebert"
+title: "Chez Bebert"
 description: "Bienvenue, tu peux retrouver ici toutes les astuces de la famille. N'hésite pas à contribuer en ajoutant les tiennes !"
 logo: 'assets/images/template/logo.png'
 favicon: 'assets/images/template/logo.png'
@@ -13,12 +13,51 @@ permalink: /:title/
 # Authors
 authors:
   vincent:
-    name: Vincent
-    display_name: Vincent    
+    name: Vincent  
     avatar: 'assets/images/avatars/vincent.jpg'
     email: vincent.berthet42@gmail.com
-    web: https://realvincentberthet.github.io/vberthet/
-    description: "@TODO vincent description"
+    description: "@TODO"
+  moman:
+    name: Moman
+    avatar: 'assets/images/avatars/moman.jpg'
+    email: marie.joelle@hotmail.fr
+    description: "@TODO"
+  popa:
+    name: Popa  
+    avatar: 'assets/images/avatars/popa.jpg'
+    description: "@TODO"
+  mamie:
+    name: Mamie  
+    avatar: 'assets/images/avatars/mamie.jpg'
+    description: "@TODO"
+  cedric:
+    name: Cédric
+    avatar: 'assets/images/avatars/cedric.jpg'
+    email: cedric.berthet@gmail.com
+    description: "@TODO"
+  carole:
+    name: Carole
+    avatar: 'assets/images/avatars/carole.jpg'
+    email: carole.cerdan@gmail.com
+    description: "@TODO"
+  elise:
+    name: Elise
+    avatar: 'assets/images/avatars/elise.jpg'
+    description: "@TODO"
+  guillaume:
+    name: Guillaume
+    avatar: 'assets/images/avatars/guillaume.jpg'
+    email: guillaume.berthet@gmail.com
+    description: "@TODO"
+  rita:
+    name: Rita
+    avatar: 'https://scontent-mrs2-1.xx.fbcdn.net/v/t1.0-9/42828740_10156917921017932_2239744252802236416_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=V8I-k2qDQigAX_UpeQC&_nc_ht=scontent-mrs2-1.xx&oh=634f0421cf224c6cedcc71845a325084&oe=5FDA20AC'
+    description: "@TODO"
+  manon:
+    name: Nounouille
+    avatar: 'assets/images/avatars/manon.jpg'
+    email: manon.berthet@gmail.com
+    description: "@TODO"
 
 # Plugins
 plugins:
