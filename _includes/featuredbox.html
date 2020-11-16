@@ -29,7 +29,13 @@
                                 {% endif %}
                             </h2>
 
-                            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:25 }}</h4>
+                            <h4 class="card-text">
+                                {% if post.beforetoc %}
+                                    {{ post.beforetoc | strip_html | truncatewords:25 }}
+                                {% else %}
+                                    {{ post.excerpt | strip_html | truncatewords:25 }}
+                                {% endif %}
+                            </h4>
                         </div>
                         <div class="card-footer b-0 bg-white mt-auto">
                             <div class="wrapfooter">
@@ -45,6 +51,17 @@
                                 <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
                                 {% endif %}
                                 <span class="post-date">{{ post.date | date_to_string }}</span>
+                                </span>
+                                <span class="post-read-more">
+                                    {% if post.difficulty %}
+                                    {% include difficulty_postbox.html %}
+                                    {% endif %}
+                                    {% if post.time %}
+                                    {% if post.difficulty %}
+                                    <br/>
+                                    {% endif %} 
+                                    {% include time_postbox.html %}
+                                    {% endif %} 
                                 </span>
                                 <div class="clearfix"></div>
                             </div>

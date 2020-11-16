@@ -25,7 +25,13 @@
                 </div>
                 {% endif %}
             </h2>
-            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+            <h4 class="card-text">
+                {% if post.beforetoc %}
+                    {{ post.beforetoc | strip_html | truncatewords:30 }}
+                {% else %}
+                    {{ post.excerpt | strip_html | truncatewords:30 }}
+                {% endif %}
+            </h4>
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
@@ -42,7 +48,18 @@
                 {% endif %}
                 <span class="post-date">{{ post.date | date_to_string }}</span>
                 </span>
-               <div class="clearfix"></div>
+                <span class="post-read-more">
+                    {% if post.difficulty %}
+                    {% include difficulty_postbox.html %}
+                    {% endif %}
+                    {% if post.time %}
+                    {% if post.difficulty %}
+                    <br/>
+                    {% endif %} 
+                    {% include time_postbox.html %}
+                    {% endif %} 
+                </span>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
