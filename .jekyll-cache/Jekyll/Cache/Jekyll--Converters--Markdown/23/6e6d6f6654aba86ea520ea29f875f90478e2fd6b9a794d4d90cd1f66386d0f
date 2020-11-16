@@ -1,9 +1,9 @@
-I"#�
+I"׆
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
     <p class="lead">
-        Bienvenue, tu peux retrouver ici toutes les astuces de la famille. N'hésite pas à contribuer en ajoutant les tiennes !
+        Bienvenue, tu peux retrouver ici toutes les astuces des Bebert. N'hésite pas à contribuer en ajoutant les tiennes !
     </p>
 </div>
 
@@ -39,9 +39,9 @@
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
-                        <a href="/mediumish-theme-jekyll/bavarois-citron/">
+                        <a href="/bavarois-citron/">
                             
-                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/recipes/0_bavarois_citron.jpg" />
+                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/recipes/0_bavarois_citron.jpg" />
                             
                         </a>
                     </div>
@@ -52,7 +52,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <a class="text-dark" href="/mediumish-theme-jekyll/bavarois-citron/">Bavarois Citron</a>
+                                <a class="text-dark" href="/bavarois-citron/">Bavarois Citron</a>
                                 
                                 <div class="mb-2 mt-2 font-weight-normal">
                                 <div class="rating-holder">
@@ -79,11 +79,11 @@
                                 
                                 <span class="meta-footer-thumb">
                                 
-                                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
                                 
                                 </span>
                                 <span class="author-meta">
-                                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Bichente</a></span><br />
+                                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
                                 
                                 <span class="post-date">15 Nov 2020</span>
                                 </span>
@@ -141,9 +141,9 @@
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
-                        <a href="/mediumish-theme-jekyll/bavarois-citron-copy/">
+                        <a href="/bavarois-citron-copy/">
                             
-                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/recipes/0_bavarois_citron.jpg" />
+                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/recipes/0_bavarois_citron.jpg" />
                             
                         </a>
                     </div>
@@ -154,7 +154,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <a class="text-dark" href="/mediumish-theme-jekyll/bavarois-citron-copy/">Bavarois Citron</a>
+                                <a class="text-dark" href="/bavarois-citron-copy/">Bavarois Citron</a>
                                 
                                 <div class="mb-2 mt-2 font-weight-normal">
                                 <div class="rating-holder">
@@ -181,11 +181,11 @@
                                 
                                 <span class="meta-footer-thumb">
                                 
-                                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
                                 
                                 </span>
                                 <span class="author-meta">
-                                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Bichente</a></span><br />
+                                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
                                 
                                 <span class="post-date">15 Nov 2020</span>
                                 </span>
@@ -243,9 +243,9 @@
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
-                        <a href="/mediumish-theme-jekyll/bavarois-citron-copy-2/">
+                        <a href="/bavarois-citron-copy-2/">
                             
-                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/recipes/0_bavarois_citron.jpg" />
+                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/recipes/0_bavarois_citron.jpg" />
                             
                         </a>
                     </div>
@@ -256,7 +256,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <a class="text-dark" href="/mediumish-theme-jekyll/bavarois-citron-copy-2/">Bavarois Citron</a>
+                                <a class="text-dark" href="/bavarois-citron-copy-2/">Bavarois Citron</a>
                                 
                                 <div class="mb-2 mt-2 font-weight-normal">
                                 <div class="rating-holder">
@@ -283,11 +283,11 @@
                                 
                                 <span class="meta-footer-thumb">
                                 
-                                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
                                 
                                 </span>
                                 <span class="author-meta">
-                                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Bichente</a></span><br />
+                                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
                                 
                                 <span class="post-date">15 Nov 2020</span>
                                 </span>
@@ -330,10 +330,6 @@
     </div>
 </div>
 <!-- end post -->
-
-        
-
-    
 
         
 
@@ -352,7 +348,7 @@
 
     <div class="section-title">
 
-        <h2><span>Derniers posts (8)</span></h2>
+        <h2><span>Derniers posts (7)</span></h2>
 
     </div>
 
@@ -366,11 +362,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/mediumish-theme-jekyll/chromecast/">
+            <a href="/chromecast/">
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/computing/0_chromecast.jpg" alt="Chromecast" />
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/computing/0_chromecast.jpg" alt="Chromecast" />
                     
 
                 
@@ -378,7 +374,7 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/mediumish-theme-jekyll/chromecast/">Chromecast</a>
+                <a class="text-dark" href="/chromecast/">Chromecast</a>
                 
             </h2>
             <h4 class="card-text">
@@ -392,11 +388,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Bichente</a></span><br />
+                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
                 
                 <span class="post-date">16 Nov 2020</span>
                 </span>
@@ -419,11 +415,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/mediumish-theme-jekyll/chromecast-copy/">
+            <a href="/chromecast-copy/">
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/computing/0_chromecast.jpg" alt="Chromecast" />
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/computing/0_chromecast.jpg" alt="Chromecast" />
                     
 
                 
@@ -431,7 +427,7 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/mediumish-theme-jekyll/chromecast-copy/">Chromecast</a>
+                <a class="text-dark" href="/chromecast-copy/">Chromecast</a>
                 
             </h2>
             <h4 class="card-text">
@@ -445,11 +441,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Bichente</a></span><br />
+                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
                 
                 <span class="post-date">16 Nov 2020</span>
                 </span>
@@ -472,11 +468,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/mediumish-theme-jekyll/chromecast-copy-2/">
+            <a href="/chromecast-copy-2/">
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/computing/0_chromecast.jpg" alt="Chromecast" />
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/computing/0_chromecast.jpg" alt="Chromecast" />
                     
 
                 
@@ -484,7 +480,7 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/mediumish-theme-jekyll/chromecast-copy-2/">Chromecast</a>
+                <a class="text-dark" href="/chromecast-copy-2/">Chromecast</a>
                 
             </h2>
             <h4 class="card-text">
@@ -498,11 +494,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Bichente</a></span><br />
+                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
                 
                 <span class="post-date">16 Nov 2020</span>
                 </span>
@@ -525,11 +521,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/mediumish-theme-jekyll/bavarois-citron/">
+            <a href="/bavarois-citron/">
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/recipes/0_bavarois_citron.jpg" alt="Bavarois Citron" />
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/recipes/0_bavarois_citron.jpg" alt="Bavarois Citron" />
                     
 
                 
@@ -537,7 +533,7 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/mediumish-theme-jekyll/bavarois-citron/">Bavarois Citron</a>
+                <a class="text-dark" href="/bavarois-citron/">Bavarois Citron</a>
                 
                 <div class="mb-2 mt-2 font-weight-normal">
                 <div class="rating-holder">
@@ -563,11 +559,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Bichente</a></span><br />
+                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
                 
                 <span class="post-date">15 Nov 2020</span>
                 </span>
@@ -615,11 +611,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/mediumish-theme-jekyll/bavarois-citron-copy/">
+            <a href="/bavarois-citron-copy/">
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/recipes/0_bavarois_citron.jpg" alt="Bavarois Citron" />
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/recipes/0_bavarois_citron.jpg" alt="Bavarois Citron" />
                     
 
                 
@@ -627,7 +623,7 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/mediumish-theme-jekyll/bavarois-citron-copy/">Bavarois Citron</a>
+                <a class="text-dark" href="/bavarois-citron-copy/">Bavarois Citron</a>
                 
                 <div class="mb-2 mt-2 font-weight-normal">
                 <div class="rating-holder">
@@ -653,11 +649,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Bichente</a></span><br />
+                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
                 
                 <span class="post-date">15 Nov 2020</span>
                 </span>
@@ -705,11 +701,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/mediumish-theme-jekyll/bavarois-citron-copy-2/">
+            <a href="/bavarois-citron-copy-2/">
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/recipes/0_bavarois_citron.jpg" alt="Bavarois Citron" />
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/recipes/0_bavarois_citron.jpg" alt="Bavarois Citron" />
                     
 
                 
@@ -717,7 +713,7 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/mediumish-theme-jekyll/bavarois-citron-copy-2/">Bavarois Citron</a>
+                <a class="text-dark" href="/bavarois-citron-copy-2/">Bavarois Citron</a>
                 
                 <div class="mb-2 mt-2 font-weight-normal">
                 <div class="rating-holder">
@@ -743,11 +739,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a href="/mediumish-theme-jekyll/contributors#vincent">Bichente</a></span><br />
+                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
                 
                 <span class="post-date">15 Nov 2020</span>
                 </span>
@@ -810,12 +806,12 @@
     
   
     
-      <a class="ml-1 mr-1" href="/mediumish-theme-jekyll/page2/">2</a>
+      <a class="ml-1 mr-1" href="/page2/">2</a>
     
   
 
   
-    <a class="ml-1 mr-1" href="/mediumish-theme-jekyll/page2/">Suivante &raquo;</a>
+    <a class="ml-1 mr-1" href="/page2/">Suivante &raquo;</a>
   
 </div>
 

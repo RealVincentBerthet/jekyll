@@ -4,7 +4,7 @@ title: "Chez Bebert"
 description: "Bienvenue, tu peux retrouver ici toutes les astuces des Bebert. N'hésite pas à contribuer en ajoutant les tiennes !"
 logo: 'assets/images/template/logo.png'
 favicon: 'assets/images/template/logo.png'
-baseurl: /mediumish-theme-jekyll
+baseurl: ""
 #disqus: 'demowebsite' 
 #mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
@@ -51,7 +51,7 @@ authors:
     description: ""
   rita:
     name: Rita di Portuguesh
-    avatar: 'https://scontent-mrs2-1.xx.fbcdn.net/v/t1.0-9/42828740_10156917921017932_2239744252802236416_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=V8I-k2qDQigAX_UpeQC&_nc_ht=scontent-mrs2-1.xx&oh=634f0421cf224c6cedcc71845a325084&oe=5FDA20AC'
+    avatar: 'assets/images/avatars/rita.jpg'
     description: "CR7 > Messi"
   manon:
     name: Nounouille
@@ -78,7 +78,7 @@ jekyll-archives:
 # Pagination 
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
