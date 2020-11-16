@@ -1,7 +1,7 @@
 # Site
 name: "Chez Bebert"
 title: "Chez Bebert"
-description: "Bienvenue, tu peux retrouver ici toutes les astuces de la famille. N'hésite pas à contribuer en ajoutant les tiennes !"
+description: "Bienvenue, tu peux retrouver ici toutes les astuces des Bebert. N'hésite pas à contribuer en ajoutant les tiennes !"
 logo: 'assets/images/template/logo.png'
 favicon: 'assets/images/template/logo.png'
 baseurl: /mediumish-theme-jekyll

@@ -1,9 +1,4 @@
----
-layout: default
-title: Home
----
-
-{% if page.url == "/" %}
+I"�<p>{% if page.url == “/” %}</p>
 
 <!-- Site Title
 ================================================== -->
@@ -17,7 +12,7 @@ title: Home
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>A l'affiche</span></h2>
+        <h2><span>Vedettes</span></h2>
     </div>
     <div class="row">
 
@@ -34,7 +29,7 @@ title: Home
     </div>
 </section>
 
-{% endif %}
+<p>{% endif %}</p>
 
 <!-- Posts Index
 ================================================== -->
@@ -67,3 +62,4 @@ title: Home
 </span>
 </div>
 
+:ET
