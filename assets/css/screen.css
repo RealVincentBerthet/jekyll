@@ -282,6 +282,16 @@ span.post-read-more a:hover {
     font-weight: 500;
 }
 
+.navbar-title{
+    color:black;
+    font-family: Righteous;
+    font-size: 2em;
+}
+
+.navbar-title a:hover{
+    color:pink !important;
+}
+
 .mediumnavigation .dropdown-menu {
     border: 1px solid rgba(0, 0, 0, 0.08);
     margin: .5rem 0 0;
