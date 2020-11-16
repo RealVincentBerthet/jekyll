@@ -1,0 +1,178 @@
+I"=
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+    <p class="lead">
+        Bienvenue, tu peux retrouver ici tous les recettes de la famille. N'hésite pas à contribuer en ajoutant les tiennes !
+    </p>
+</div>
+
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Vedettes</span></h2>
+    </div>
+    <div class="row">
+
+    
+
+        
+
+            <!-- begin post -->
+
+<div class="col-md-6 mb-30px">
+    <div class="listfeaturedtag h-100">
+        <div class="row h-100">
+            <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
+                <div class="h-100">
+                    <div class="wrapthumbnail">
+                        <a href="/mediumish-theme-jekyll/bavarois-citron/">
+                            
+                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/bavarois-citron.jpg" />
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-7">
+                <div class="h-100 card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                <a class="text-dark" href="/mediumish-theme-jekyll/bavarois-citron/">Bavarois Citron</a>
+                                
+                                <div class="mb-2 mt-2 font-weight-normal">
+                                <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="3.5">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div>
+                                </div>
+                                
+                            </h2>
+
+                            <h4 class="card-text">Todo
+</h4>
+                        </div>
+                        <div class="card-footer b-0 bg-white mt-auto">
+                            <div class="wrapfooter">
+                                
+                                <span class="meta-footer-thumb">
+                                
+                                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/vincent.jpg" alt="Vincent" />
+                                
+                                </span>
+                                <span class="author-meta">
+                                <span class="post-name"><a target="_blank" href="https://realvincentberthet.github.io/vberthet/">Vincent</a></span><br />
+                                
+                                <span class="post-date">16 Nov 2020</span>
+                                </span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+        
+
+    
+
+    </div>
+</section>
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts">
+
+    <div class="section-title">
+
+        <h2><span>Toutes les recettes (1)</span></h2>
+
+    </div>
+
+    <div class="row listrecent">
+
+        
+
+        <!-- begin post -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/mediumish-theme-jekyll/bavarois-citron/">
+                
+
+                    
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/mediumish-theme-jekyll/assets/images/bavarois-citron.jpg" alt="Bavarois Citron" />
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/mediumish-theme-jekyll/bavarois-citron/">Bavarois Citron</a>
+                
+                <div class="mb-2 mt-2 font-weight-normal">
+                <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="3.5">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div>
+                </div>
+                
+            </h2>
+            <h4 class="card-text">Todo
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/mediumish-theme-jekyll/assets/images/vincent.jpg" alt="Vincent" />
+                
+                </span>
+                <span class="author-meta">
+                <span class="post-name"><a target="_blank" href="https://realvincentberthet.github.io/vberthet/">Vincent</a></span><br />
+                
+                <span class="post-date">16 Nov 2020</span>
+                </span>
+               <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+        
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    
+</span>
+</div>
+
+:ET
