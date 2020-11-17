@@ -1,6 +1,6 @@
 # Jekyll
 
-[![License](https://img.shields.io/github/license/RealVincentBerthet/jekyll?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/RealVincentBerthet/jekyll)](https://opensource.org/licenses/MIT)
 
 A [Jekyll](https://jekyllrb.com/) website aims to publish (markdown) and share easily content with a dedicated list of people.
 
