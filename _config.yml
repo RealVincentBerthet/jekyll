@@ -93,4 +93,4 @@ kramdown:
 # Lazy Images 
 lazyimages: "enabled"
 
-exclude: [ LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [ LICENSE, README.md, Gemfile, Gemfile.lock]
