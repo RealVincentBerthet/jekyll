@@ -1,0 +1,27 @@
+---
+title: "Contributors"
+layout: default
+permalink: "/contributors.html"
+---
+
+<div class="row listrecent">
+    {% assign sorted_authors = site.authors | sort %}
+    {% for contributor in sorted_authors %}
+    <div class="section-title col-md-12 mt-4">
+    <h2 id="{{ contributor[0] | replace: " ","-" }}">@<span class="text-capitalize">{{ contributor[1].name }}</span></h2>
+    </div>
+
+    {% assign pages_list = site.posts %}
+    {% for post in pages_list %}
+    {% if post.title != null %}
+    {% if group == null or group == post.group %}
+    {% if post.author ==contributor[0] %}
+        {% include postbox.html %}
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+    {% endfor %}
+</div>
