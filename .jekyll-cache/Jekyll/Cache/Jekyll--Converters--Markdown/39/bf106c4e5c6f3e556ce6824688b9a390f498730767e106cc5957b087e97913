@@ -1,4 +1,4 @@
-I" ?
+I"¬?
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
@@ -31,9 +31,9 @@
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
-                        <a href="/bavarois-citron/">
+                        <a href="/jekyll/bavarois-citron/">
                             
-                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/recipes/0_bavarois_citron.jpg" />
+                            <img class="featured-box-img-cover lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/jekyll/assets/images/recipes/0_bavarois_citron.jpg" />
                             
                         </a>
                     </div>
@@ -44,7 +44,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <a class="text-dark" href="/bavarois-citron/">Bavarois Citron</a>
+                                <a class="text-dark" href="/jekyll/bavarois-citron/">Bavarois Citron</a>
                                 
                                 <div class="mb-2 mt-2 font-weight-normal">
                                 <div class="rating-holder">
@@ -71,11 +71,11 @@
                                 
                                 <span class="meta-footer-thumb">
                                 
-                                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                                <img class="author-thumb" src="/jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
                                 
                                 </span>
                                 <span class="author-meta">
-                                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
+                                <span class="post-name"><a href="/jekyll/contributors#vincent">Bichente</a></span><br />
                                 
                                 <span class="post-date">15 Nov 2020</span>
                                 </span>
@@ -150,11 +150,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/chromecast/">
+            <a href="/jekyll/chromecast/">
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/computing/0_chromecast.jpg" alt="Chromecast" />
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/jekyll/assets/images/computing/0_chromecast.jpg" alt="Chromecast" />
                     
 
                 
@@ -162,7 +162,7 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/chromecast/">Chromecast</a>
+                <a class="text-dark" href="/jekyll/chromecast/">Chromecast</a>
                 
             </h2>
             <h4 class="card-text">
@@ -176,11 +176,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                <img class="author-thumb" src="/jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
+                <span class="post-name"><a href="/jekyll/contributors#vincent">Bichente</a></span><br />
                 
                 <span class="post-date">16 Nov 2020</span>
                 </span>
@@ -203,11 +203,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/bavarois-citron/">
+            <a href="/jekyll/bavarois-citron/">
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/recipes/0_bavarois_citron.jpg" alt="Bavarois Citron" />
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/jekyll/assets/images/recipes/0_bavarois_citron.jpg" alt="Bavarois Citron" />
                     
 
                 
@@ -215,7 +215,7 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/bavarois-citron/">Bavarois Citron</a>
+                <a class="text-dark" href="/jekyll/bavarois-citron/">Bavarois Citron</a>
                 
                 <div class="mb-2 mt-2 font-weight-normal">
                 <div class="rating-holder">
@@ -241,11 +241,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                <img class="author-thumb" src="/jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
+                <span class="post-name"><a href="/jekyll/contributors#vincent">Bichente</a></span><br />
                 
                 <span class="post-date">15 Nov 2020</span>
                 </span>
@@ -293,11 +293,11 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/entremet-chocolat/">
+            <a href="/jekyll/entremet-chocolat/">
                 
 
                     
-                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/assets/images/recipes/1_entremet_chocolat.jpg" alt="Entremet Chocolat" />
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/jekyll/assets/images/recipes/1_entremet_chocolat.jpg" alt="Entremet Chocolat" />
                     
 
                 
@@ -305,7 +305,7 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="/entremet-chocolat/">Entremet Chocolat</a>
+                <a class="text-dark" href="/jekyll/entremet-chocolat/">Entremet Chocolat</a>
                 
                 <div class="mb-2 mt-2 font-weight-normal">
                 <div class="rating-holder">
@@ -331,11 +331,11 @@
                 
                 <span class="meta-footer-thumb">
                 
-                <img class="author-thumb" src="/assets/images/avatars/vincent.jpg" alt="Bichente" />
+                <img class="author-thumb" src="/jekyll/assets/images/avatars/vincent.jpg" alt="Bichente" />
                 
                 </span>
                 <span class="author-meta">
-                <span class="post-name"><a href="/contributors#vincent">Bichente</a></span><br />
+                <span class="post-name"><a href="/jekyll/contributors#vincent">Bichente</a></span><br />
                 
                 <span class="post-date">09 Nov 2020</span>
                 </span>

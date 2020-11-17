@@ -67,10 +67,12 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" title="Code source" target="_blank" href="https://github.com/RealVincentBerthet/jekyll"><i class="fab fa-github"></i></a>
+                    <a id='github-link-1' class="nav-link" title="Code source" target="_blank" href=""><i class="fab fa-github"></i></a>
                 </li>
 
-                
+                <script>
+                    document.getElementById("github-link-1").href=`https://github.com/${window.location.hostname.split('.')[0]}/{{site.baseurl}}`;
+                </script>
 
                 {% include search-lunr.html %}
 
@@ -153,8 +155,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} | Développé par <a href="./../vberthet/"> Vincent Berthet</a>
+                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} | Développé par <a id ="github-link-0" href=""> Vincent Berthet</a>
             </div>
+            
+            <script>
+                document.getElementById("github-link-0").href=`https://${window.location.hostname.split('.')[0]}.github.io/{{site.vberthet}}`;
+            </script>
         </div>
     </div>
 </footer>

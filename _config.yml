@@ -4,8 +4,9 @@ title: "Chez Bebert"
 description: "Bienvenue, tu peux retrouver ici toutes les astuces des Bebert. N'hésite pas à contribuer en ajoutant les tiennes !"
 logo: 'assets/images/template/logo.png'
 favicon: 'assets/images/template/logo.png'
-#baseurl: ""
-baseurl: https://realvincentberthet.github.io/jekyll
+github: RealVincentBerthet
+vberthet: vberthet
+baseurl: /jekyll
 #disqus: 'demowebsite' 
 #mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
