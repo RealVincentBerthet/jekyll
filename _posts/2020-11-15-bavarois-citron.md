@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bavarois Citron"
-author: vincent
+author: Vincent
 categories: [Dessert]
 tags: [Citron, Bavarois, Light]
 image: assets/images/recipes/0_bavarois_citron.jpg
@@ -11,7 +11,6 @@ difficulty : "Facile"
 time: "13 min"
 personne: 6
 rating: 4
-featured: true
 ---
 
 # Préparatifs

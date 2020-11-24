@@ -1,0 +1,180 @@
+---
+layout: page
+---
+    <div class="container">
+      <form id="post-form">
+        <div class="form-row">
+            <!-- Author -->
+            <div class="form-group col">
+                <label class="sr-only" for="inlineFormInputGroup">Utilisateur</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                    </div>
+                    <select class="custom-select" required>
+                        <option value="">Sélectionner l'auteur</option>
+                        <option value="1">Carole</option>
+                        <option value="2">Cedric</option>
+                        <option value="3">Elise</option>
+                        <option value="4">Guillaume</option>
+                        <option value="5">Mamie</option>
+                        <option value="6">Moman</option>
+                        <option value="7">Manon</option>
+                        <option value="8">Popa</option>
+                        <option value="9">Rita</option>
+                        <option value="10">Vincent</option>
+                    </select>
+                </div> 
+                <small id="authorHelp" class="form-text text-muted">Auteur</small>
+            </div>
+            <!-- Tags -->
+            <div class="form-group col">
+                <label class="sr-only" for="inlineFormInputGroup">Tags</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">#</div>
+                    </div>
+                    <input type="text" class="form-control" id="inputTags" placeholder="Tag1, Tag2">
+                </div> 
+                <small id="tagsHelp" class="form-text text-muted">Tags</small>
+            </div>
+            <!-- Category -->
+            <div class="form-group col">
+                <div class="input-group mb-2">
+                    <select class="custom-select" required>
+                        <option value="">Sélectionner la catégorie</option>
+                        <option value="1">Art</option>
+                        <option value="2">Bricolage</option>
+                        <option value="3">Dessert</option>
+                        <option value="4">Informatique</option>
+                        <option value="5">Jardinage</option>
+                        <option value="6">Autre</option>
+                    </select>
+                </div>
+                <small id="categoryHelp" class="form-text text-muted">Catégorie</small>
+            </div>  
+        </div>
+        <!-- Title -->
+        <div class="form-group">
+          <input type="text" class="form-control" id="inputTitle" placeholder="Titre">
+          <small id="titleHelp" class="form-text text-muted">Titre</small>
+        </div>
+        <!-- Vignette -->
+        <div class="form-group">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                <label class="custom-file-label" for="validatedCustomFile">Choisir une vignette...</label>
+                <small id="vignetteHelp" class="form-text text-muted">Vignette</small>
+            </div>
+        </div>
+        <!-- Text -->
+        <div class="form-group">
+            <textarea class="form-control" id="inputText" placeholder="Text" rows="15" required></textarea>
+        </div>
+        <!-- Abstract-->
+        <div class="form-row my-2">
+            <div class="col-auto my-2 col-sm-4">
+              <div class="custom-control custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="abstractCheckbox" onclick="show('abstractCheckbox','abstractInput')">
+                  <label class="custom-control-label" for="abstractCheckbox">Abstract vignette</label>
+              </div>    
+            </div>
+          <div class="col-auto col-sm my-1">
+              <input type="text" class="form-control" id="abstractInput" style="display:none;" placeholder="Description">
+          </div>
+        </div>
+        <!-- Personne-->
+        <div class="form-row my-2">
+            <div class="col-auto my-2 col-sm-4">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="personCheckbox" onclick="show('personCheckbox','personInput')">
+                    <label class="custom-control-label" for="personCheckbox">Nombre de personnes</label>
+                </div>    
+            </div>
+            <div class="col-auto col-sm my-1">
+                <input type="number" value=4 min="1" max="99" class="form-control" style="display:none;" id="personInput">
+            </div>
+        </div>
+        <!-- Difficulty-->
+        <div class="form-row my-2">
+            <div class="col-auto my-2 col-sm-4">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="difficultyCheckbox" onclick="show('difficultyCheckbox','difficultyInput')">
+                    <label class="custom-control-label" for="difficultyCheckbox">Difficulté</label>
+                </div>    
+            </div>
+            <div class="col-auto col-sm my-1">
+                <input type="text" class="form-control" id="difficultyInput" style="display:none;" placeholder="Facile">
+            </div>
+        </div>
+        <!-- Time-->
+        <div class="form-row my-2">
+            <div class="col-auto my-2 col-sm-4">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="timeCheckbox" onclick="show('timeCheckbox','timeInput')">
+                    <label class="custom-control-label" for="timeCheckbox">Temps requis</label>
+                </div>    
+            </div>
+            <div class="col-auto col-sm my-1">
+                <input type="text" class="form-control" id="timeInput" style="display:none;" placeholder="1h">
+            </div>
+        </div>
+        <!-- Rating -->
+        <div class="form-row my-2">
+            <div class="col-auto my-2 col-sm-4">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="ratingCheckbox" onclick="show('ratingCheckbox','ratingInput')">
+                    <label class="custom-control-label" for="ratingCheckbox">Noter</label>
+                </div>
+            </div>
+            <fieldset id="ratingInput" style="display:none;" class="rating">
+                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5"></label>
+                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half"></label>
+                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4"></label>
+                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half"></label>
+                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3"></label>
+                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half"></label>
+                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2"></label>
+                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half"></label>
+                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1"></label>
+                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf"></label>
+            </fieldset>
+        </div>
+        <!-- Upload -->
+        <!-- Submit -->
+        <div class="text-right">
+            <button type="submit" class="btn btn-primary">Poster</button>
+        </div>
+      </form>    
+      </div>
+
+        <!-- Status Modal -->
+        <div class="modal fade" id="status" tabindex="-1" role="dialog" aria-labelledby="statusLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="statusLabel">Post status</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                @TODO
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        
+
+  <script src="{{ site.baseurl }}/assets/plugins/jQuery/3.3.1/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/plugins/markdown-js/master/lib/markdown.js"></script>
+  <script src="{{ site.baseurl }}/assets/plugins/turndown/7.0.1/src/turndown.js"></script>
+  <script src="{{ site.baseurl }}/assets/plugins/bootstrap-markdown/2.10.0/js/bootstrap-markdown.js"></script>
+  <script src="{{ site.baseurl }}/assets/plugins/bootstrap-markdown/2.10.0/locale/bootstrap-markdown.fr.js"></script>
+  <script src="{{ site.baseurl }}/assets/plugins/jQuery.hotkeys/0.2.0/jquery.hotkeys.js"></script>
+  <script src="{{site.baseurl}}/assets/js/form.js"></script>
+

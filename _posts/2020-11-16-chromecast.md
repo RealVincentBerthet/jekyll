@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chromecast"
-author: vincent
+author: Vincent
 categories: [Informatique]
 tags: []
 image: assets/images/computing/0_chromecast.jpg

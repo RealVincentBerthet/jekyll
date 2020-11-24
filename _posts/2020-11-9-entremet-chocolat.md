@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Entremet Chocolat"
-author: vincent
+author: Vincent
 categories: [Dessert]
 tags: [Entremet, Chocolat]
 image: assets/images/recipes/1_entremet_chocolat.jpg
