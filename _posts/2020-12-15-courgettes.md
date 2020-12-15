@@ -27,7 +27,7 @@ toc: true
 * Saler et poivrer
 * Battre l'oeuf et le gruyère avant d'enfourner au four
 
-![]({{ site.baseurl }}/assets/images/computing/4_courgettes_r1.jpg)
+![]({{ site.baseurl }}/assets/images/recipes/4_courgettes_r1.jpg)
 
 # Recette 2
 ## Ingrédients
