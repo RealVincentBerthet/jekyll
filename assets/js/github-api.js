@@ -260,7 +260,7 @@ class GithubAPI{
 
 async function main(){
 
-    let github=new GithubAPI("07c7524220de4a2ef29ad6ad807660fc0013b4a2");
+    let github=new GithubAPI("07c7524220de4a2ef29ad6ad807660fc0013b4a2"); //@TODO hide key
     const owner="RealVincentBerthet";
     const repository="jekyll";
     const ref="heads/test";

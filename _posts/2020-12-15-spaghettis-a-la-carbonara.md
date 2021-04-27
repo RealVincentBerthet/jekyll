@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Spaghettis à la carbonara"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Pâte,Crème]
-image: assets/images/recipes/
+image: assets/images/recipes/15_pate_carbo.jpg
 beforetoc: ""
 toc: true
 

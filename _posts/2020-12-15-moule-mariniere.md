@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Moules marinières"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Fromage,Patate,Crème]
-image: assets/images/recipes/
+image: assets/images/recipes/21_moules_marinieres.jpg
 beforetoc: "Du gras <3."
 toc: true
 difficulty : "Facile"

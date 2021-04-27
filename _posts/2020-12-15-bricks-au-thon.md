@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Bricks au thon"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Thon, Bricks]
-image: assets/images/recipes/
+image: assets/images/recipes/34_brick_thon.jpg
 beforetoc: ""
 toc: true
 ---

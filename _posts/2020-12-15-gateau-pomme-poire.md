@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Gateau aux pommes ou aux poire"
-author: Maman
+author: Moman
 categories: [Dessert]
 tags: [Pomme,Poire]
-image: assets/images/recipes/
+image: assets/images/recipes/25_gateau_pomme_poire.jpg
 beforetoc: ""
 toc: true
 ---

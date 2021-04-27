@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Gratin de courgette (thermomix)"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Thermomix,Courgette]
-image: assets/images/recipes/
+image: assets/images/recipes/31_gratin_courgette_thermomix.jpg
 beforetoc: ""
 toc: true
 ---

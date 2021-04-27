@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Baguette fourrée"
-author: Maman
+author: Moman
 categories: [Apéritif]
 tags: []
-image: assets/images/recipes/
+image: assets/images/recipes/36_baguette_fourrée.jpg
 beforetoc: ""
 toc: true
 ---

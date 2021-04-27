@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Quiche à la ricotta, jambon et courgette"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Quiche,Courgette]
-image: assets/images/recipes/
+image: assets/images/recipes/19_quiche_ricotta_courgettes.jpg
 beforetoc: ""
 toc: true
 time: "20 min et 40 min de cuisson"

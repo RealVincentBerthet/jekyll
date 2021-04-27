@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Cuisse de dinde au four"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Dinde]
-image: assets/images/recipes/
+image: assets/images/recipes/27_cuisse_de_dinde_au_four.jpg
 beforetoc: ""
 toc: true
 difficulty : "Facile"

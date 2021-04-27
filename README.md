@@ -4,7 +4,7 @@
 
 
 ## Abstract
-A [Jekyll](https://jekyllrb.com/) website aims to publish (markdown) and share easily content with a dedicated list of people.
+A [Jekyll](https://jekyllrb.com/) website aims to publish (markdown) using github api and share easily content with a dedicated list of people.
 
 
 *This site is based on [Mediumish Theme Jekyll - Copyright (C) 2019 Sal](https://github.com/wowthemesnet/mediumish-theme-jekyll) bootstrap*
@@ -15,6 +15,6 @@ A [Jekyll](https://jekyllrb.com/) website aims to publish (markdown) and share e
 
 ## Dev
 
-**Local :** `jerkyll serve --watch --force_polling`
+**Local :** `bundle exec jekyll serve`
 
 **Docker :** run [./docker-compose.yml](./docker-compose.yml)

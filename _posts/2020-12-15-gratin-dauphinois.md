@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Gratin dauphinois"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Patate,Crème]
-image: assets/images/recipes/
+image: assets/images/recipes/24_gratins_daupphinois.jpg
 beforetoc: ""
 toc: true
 difficulty : "Facile"

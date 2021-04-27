@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Lasagnes au saumon et aux courgettes (Thermomix)"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Thermomix,Lasagne,Saumon,Courgette]
-image: assets/images/recipes/
+image: assets/images/recipes/23_lasagnes_au_saumon.jpg
 beforetoc: ""
 toc: true
 ---

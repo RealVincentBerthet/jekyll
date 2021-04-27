@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Quiche sans pâte"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Quiche]
-image: assets/images/recipes/
+image: assets/images/recipes/18_quiche_sans_pate.jpg
 beforetoc: ""
 toc: true
 ---

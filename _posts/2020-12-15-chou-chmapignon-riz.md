@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Chou chinois au champignon et riz"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Chou,Champignon,Riz]
-image: assets/images/recipes/
+image: assets/images/recipes/32_chou_chinois_champignon.jpg
 beforetoc: ""
 toc: true
 time: "15 min et 25 min de cuisson"

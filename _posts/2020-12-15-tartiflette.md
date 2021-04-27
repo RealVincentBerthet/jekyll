@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Tartiflette"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Fromage,Patate,Crème]
-image: assets/images/recipes/
+image: assets/images/recipes/13_tartiflette.jpg
 beforetoc: "Du gras <3."
 toc: true
 time: "25 min et 35 min de cuisson"

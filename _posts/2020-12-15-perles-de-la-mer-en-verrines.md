@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Perles de la mer en verrines"
-author: Maman
+author: Moman
 categories: [Apéritif]
 tags: []
-image: assets/images/recipes/
+image: assets/images/recipes/20_perle_de_la_mer.jpg
 beforetoc: ""
 toc: true
 ---

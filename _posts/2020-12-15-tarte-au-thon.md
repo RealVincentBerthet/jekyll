@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Tarte au thon"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Tarte,Thon]
-image: assets/images/recipes/
+image: assets/images/recipes/14_tarte_au_thon.jpg
 beforetoc: "Avec de la moutarde ?"
 toc: true
 personne: "6"

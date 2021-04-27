@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Perles du japon au lait de coco et dès de mangue (Thermomix)"
-author: Maman
+author: Moman
 categories: [Dessert]
 tags: [Thermomix,Coco,Mangue]
-image: assets/images/recipes/
+image: assets/images/recipes/20_perle_lait_coco.jpg
 beforetoc: ""
 toc: true
 rating: 5

@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Roulés tomates fromages"
-author: Maman
-categories: [Aperitif]
+author: Moman
+categories: [Apéritif]
 tags: [Tomate,fromage]
-image: assets/images/recipes/
+image: assets/images/recipes/17_roule_tomate_fromage.jpg
 beforetoc: ""
 toc: true
 ---

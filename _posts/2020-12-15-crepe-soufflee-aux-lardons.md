@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Crêpes soufflées aux lardon"
-author: Maman
+author: Moman
 categories: [Apéritif]
 tags: [Soufflee,Lardon]
-image: assets/images/recipes/
+image: assets/images/recipes/29_crepes_soufflees.jpg
 beforetoc: ""
 toc: true
 time: "15 min et 15 min de cuisson"

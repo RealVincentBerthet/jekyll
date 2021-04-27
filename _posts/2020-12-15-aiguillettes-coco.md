@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Aiguillettes au lait de coco"
-author: Maman
+author: Moman
 categories: [Dessert]
 tags: [Poulet,Coco]
-image: assets/images/recipes/
+image: assets/images/recipes/37_aiguillettes_coco.jpg
 beforetoc: ""
 toc: true
 personne: "2"

@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Meringues"
-author: Maman
+author: Moman
 categories: [Dessert]
 tags: []
-image: assets/images/recipes/
+image: assets/images/recipes/22_meringues.jpg
 beforetoc: ""
 toc: true
 ---

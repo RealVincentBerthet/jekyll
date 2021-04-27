@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Crème chocolat"
-author: Maman
+author: Moman
 categories: [Dessert]
 tags: [Thermomix,Chocolat]
-image: assets/images/recipes/
+image: assets/images/recipes/30_creme_chocolat.jpg
 beforetoc: ""
 toc: true
 ---

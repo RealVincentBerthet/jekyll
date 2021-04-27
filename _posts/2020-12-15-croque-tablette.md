@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Croque tablette"
-author: Maman
+author: Moman
 categories: [Plat]
 tags: [Pain,Jambon,Fromage]
-image: assets/images/recipes/
+image: assets/images/recipes/28_croque_tablette.jpg
 beforetoc: "Un petit croc"
 toc: true
 rating: 5

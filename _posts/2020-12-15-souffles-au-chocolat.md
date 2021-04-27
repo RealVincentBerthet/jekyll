@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Soufflés au chocolat"
-author: Maman
+author: Moman
 categories: [Dessert]
 tags: [Chocolat,Gateau]
-image: assets/images/recipes/
+image: assets/images/recipes/16_souffle_au_chocolat.jpg
 beforetoc: ""
 toc: true
 time: "10 min et 5 min de cuisson"
