@@ -11,8 +11,6 @@ License: https://www.wowthemes.net/freebies-license/
     padding: 1rem 0rem;
 }
 
-<<<<<<< HEAD
-=======
 .btn-primary{
     color:#fff;
     background-color:#00ab6b;
@@ -39,7 +37,6 @@ License: https://www.wowthemes.net/freebies-license/
     top:0.45em;
 }
 
->>>>>>> feature/githubPost
 a {
     color: #00ab6b;
     transition: all 0.2s;
@@ -357,19 +354,11 @@ span.post-read-more a:hover {
     padding-top: 15px;
     padding-bottom: 12px;
     font-size: 0.8rem;
-<<<<<<< HEAD
-    color: rgba(0, 0, 0, .44);
-    margin-top: 50px;
-    margin-bottom: 62px;
-    position: relative;
-    background: #fff;
-=======
     color: rgba(255, 255, 255, .44);
     margin-top: 50px;
 
     position: relative;
     background: rgb(17, 17, 17);
->>>>>>> feature/githubPost
 }
 
 .link-dark {
