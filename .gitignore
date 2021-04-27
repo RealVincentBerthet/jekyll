@@ -4,4 +4,4 @@ _site
 .sass-cache
 *~
 todo*
-.jerkill-cache/
+.jekyll-cache/*
