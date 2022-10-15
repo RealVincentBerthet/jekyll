@@ -1,16 +1,17 @@
 <div class="share sticky-top sticky-top-offset">
-    <p>
-        Partager
-    </p>
+    <p>Partager</p>
     <ul>
         <li class="ml-1 mr-1">
-            <a target="_blank" href="mailto:?subject={{ page.title }}%20|%20{{ site.name }}&body={{ page.title }}%20:%20{{ page.url | absolute_url }}">
+            <a
+                target="_blank"
+                href="mailto:?subject={{ page.title }}%20|%20{{ site.name }}&body={{ page.title }}%20:%20{{ page.url | absolute_url }}"
+            >
                 <i class="fas fa-envelope"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" >
+            <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}">
                 <i class="fab fa-twitter"></i>
             </a>
         </li>
@@ -26,14 +27,12 @@
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </li>
-
     </ul>
     {% if page.comments != false %}
-    <div class="sep">
-    </div>
+    <div class="sep"></div>
     <ul>
         <li>
-        <a class="small smoothscroll" href="#disqus_thread"></a>
+            <a class="small smoothscroll" href="#disqus_thread"></a>
         </li>
     </ul>
     {% endif %}
