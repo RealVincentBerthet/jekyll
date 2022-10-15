@@ -12,7 +12,7 @@ layout: page
                     <div class="input-group-prepend">
                         <div class="input-group-text">@</div>
                     </div>
-                    <select class="custom-select" required>
+                    <select class="custom-select" id="inputAuthor" required>
                         <option value="">Sélectionner l'auteur</option>
                         <option value="1">Carole</option>
                         <option value="2">Cedric</option>
@@ -43,7 +43,7 @@ layout: page
             <!-- Category -->
             <div class="form-group col">
                 <div class="input-group mb-2">
-                    <select class="custom-select" required>
+                    <select class="custom-select" id="inputCategory" required>
                         <option value="">Sélectionner la catégorie</option>
                         <option value="1">Art</option>
                         <option value="2">Bricolage</option>
@@ -92,12 +92,12 @@ layout: page
         <div class="form-row my-2">
             <div class="col-auto my-2 col-sm-4">
                 <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="personCheckbox" onclick="show('personCheckbox','personInput')" />
-                    <label class="custom-control-label" for="personCheckbox">Nombre de personnes</label>
+                    <input type="checkbox" class="custom-control-input" id="personneCheckbox" onclick="show('personneCheckbox','personneInput')" />
+                    <label class="custom-control-label" for="personneCheckbox">Nombre de personnes</label>
                 </div>
             </div>
             <div class="col-auto col-sm my-1">
-                <input type="number" value="4" min="1" max="99" class="form-control" style="display: none" id="personInput" />
+                <input type="number" value="4" min="1" max="99" class="form-control" style="display: none" id="personneInput" />
             </div>
         </div>
         <!-- Difficulty-->
@@ -139,15 +139,15 @@ layout: page
             </div>
             <fieldset id="ratingInput" style="display: none" class="rating">
                 <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5"></label>
-                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half"></label>
+                <input type="radio" id="star4half" name="rating" value="4.5" /><label class="half" for="star4half"></label>
                 <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4"></label>
-                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half"></label>
+                <input type="radio" id="star3half" name="rating" value="3.5" /><label class="half" for="star3half"></label>
                 <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3"></label>
-                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half"></label>
+                <input type="radio" id="star2half" name="rating" value="2.5" /><label class="half" for="star2half"></label>
                 <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2"></label>
-                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half"></label>
+                <input type="radio" id="star1half" name="rating" value="1.5" /><label class="half" for="star1half"></label>
                 <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1"></label>
-                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf"></label>
+                <input type="radio" id="starhalf" name="rating" value="0.5" /><label class="half" for="starhalf"></label>
             </fieldset>
         </div>
         <!-- Upload -->
@@ -168,7 +168,29 @@ layout: page
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">@TODO</div>
+            <div class="modal-body">
+                <div>
+                    <p id="statusText"></p>
+                </div>
+
+                <div>
+                    <p>
+                        <button
+                            class="btn btn-info"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapseExample"
+                            aria-expanded="false"
+                            aria-controls="collapseExample"
+                        >
+                            Post details
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body" id="statusPost"></div>
+                    </div>
+                </div>
+            </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
             </div>
