@@ -58,6 +58,33 @@ $(document).ready(function () {
     return values;
   }
 
+  function clearForm() {
+    document.getElementById("inputAuthor").selectedIndex = 0;
+    document.getElementById("inputTags").value = "";
+    document.getElementById("inputCategory").selectedIndex = 0;
+    document.getElementById("inputTitle").value = "";
+    document.getElementById("inputText").value = "";
+    document.getElementById("preview").html = "";
+    document.getElementById("abstractCheckbox").checked = false;
+    document.getElementById("abstractInput").value = "";
+    show('abstractCheckbox', 'abstractInput');
+    document.getElementById("abstractCheckbox").checked = false;
+    document.getElementById("personneInput").value = "";
+    show('personneCheckbox', 'personneInput');
+    document.getElementById("difficultyCheckbox").checked = false;
+    document.getElementById("difficultyInput").value = "";
+    show('difficultyCheckbox', 'difficultyInput');
+    document.getElementById("timeCheckbox").checked = false;
+    document.getElementById("timeInput").value = "";
+    show('timeCheckbox', 'timeInput');
+    document.getElementById("ratingCheckbox").checked = false;
+    show('ratingCheckbox', 'ratingInput');
+    let stars = document.querySelectorAll("#ratingInput input")
+    for (let i = 0; i < stars.length; i++) {
+      stars[i].checked = false;
+    }
+  }
+
   function buildPost(values) {
     let optional = "";
     optional += values["personne"] != "" ? "personne: " + values["personne"] + "\n" : "";
@@ -82,14 +109,34 @@ ${values["text"]}
     return tpl;
   }
 
-  function handleForm(e) {
+  async function handleForm(e) {
     e.preventDefault();
     const form_values = parseForm();
     let post_filled = buildPost(form_values);
+    // block page interaction @TODO + token cache + regler le probleme de fail pour je ne sais quel raaison
+    // Send file
+    const date = new Date();
+    const day = date.getDate();
+    const month = date.getMonth() + 1;
+    const year = date.getFullYear();
+    const file_path = `_posts\\${year}-${month}-${day}-${form_values["title"].normalize("NFD").replaceAll(" ", "-")}.md`;
 
-    $('.modal-body').find('#statusText').html('@TODO');
+    let resp = await window.post_github([
+      { path: file_path, mode: '100644', content: post_filled }
+    ],
+      `[POST] ${form_values["title"]}`,
+      "RealVincentBerthet",
+      "jekyll",
+      "heads/post"
+    );
+
+    $('.modal-body').find('#statusText').html(resp.status == 200 ? "<h5 style='color:green'>SUCCES<h5/>" : "<h5 style='color:red'>ERROR<h5/><br/>" + resp);
     $('.modal-body').find('#statusPost').html(post_filled.replaceAll('\n', '<br>'));
 
+    //clear fields
+    if (resp.status == 200) {
+      clearForm();
+    }
     $('#status').modal({
       show: true
     });

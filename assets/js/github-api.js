@@ -258,22 +258,16 @@ class GithubAPI {
 
 }
 
-async function main() {
-
-    let github = new GithubAPI("07c7524220de4a2ef29ad6ad807660fc0013b4a2"); //@TODO hide key
-    const owner = "RealVincentBerthet";
-    const repository = "jekyll";
-    const ref = "heads/test";
-    const tree = [
-        { path: 'file1.txt', mode: '100644', content: 'file content here' },
-        { path: 'file.txt', mode: '100644', content: 'bravoezrzerzre file content here' }
-    ]
-    const message = 'alller message';
-    //const u=await github.getUser();
-    //console.log(u);
-    const r = await github.getRepository(owner, repository);
-    console.log(r);
-    //console.warn(await github.uploadToRepository(owner, repository,ref,tree,message));
+async function post_github(tree,message,owner,repository,ref) {
+    let github = new GithubAPI("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"); //@TODO hide key
+    try {
+        let r = await github.getRepository(owner, repository);
+        r = await github.uploadToRepository(owner, repository, ref, tree, message);
+        return r
+    } catch (error) {
+        console.error(error);
+        return error.status, error.message
+    }
 }
 
-main(); //@TODO VOIR EXPORT et IMPORT MODULE pour fichier séparé
+window.post_github = post_github;
