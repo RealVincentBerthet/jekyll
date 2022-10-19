@@ -119,15 +119,55 @@ ${values["text"]}
     const day = date.getDate();
     const month = date.getMonth() + 1;
     const year = date.getFullYear();
-    const file_path = `_posts\\${year}-${month}-${day}-${form_values["title"].normalize("NFD").replaceAll(" ", "-")}.md`;
+    const file_path = `_posts/${year}-${month}-${day}-${form_values["title"].normalize("NFD").replaceAll(" ", "-")}.md`;
+
+
+
+
+
+
+    // const imagePath ='example.png';
+    // const bytes = await readFilePromise(imagePath, 'binary');
+    // const buffer = Buffer.from(bytes, 'binary');
+    // const image_content = buffer.toString('base64');
+    // console.log(image_content);
+
+    var toBase64 = function (file, callBack) {
+      file = file.files[0];
+      var reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = function () {
+        callBack(file, reader.result);
+      };
+      reader.onerror = function (error) {
+        console.log('Error: ', error);
+      };
+    };
+
+    let file = $('#validatedCustomFile').get(0).files[0];
+    console.log(file);
+
+
+
+    var reader = new FileReader();
+    reader.readAsDataURL(file);
+    let file_64 = reader.result;
+    console.log(file_64);
+
+
+
+
 
     let resp = await window.post_github([
-      { path: file_path, mode: '100644', content: post_filled }
+      {
+        path: file_path, mode: '100644', content: post_filled,
+        path: "toto.jpg", mode: '100644', content: file_64
+      }
     ],
       `[POST] ${form_values["title"]}`,
       "RealVincentBerthet",
       "jekyll",
-      "heads/post"
+      "heads/posts"
     );
 
     $('.modal-body').find('#statusText').html(resp.status == 200 ? "<h5 style='color:green'>SUCCES<h5/>" : "<h5 style='color:red'>ERROR<h5/><br/>" + resp);
@@ -140,5 +180,9 @@ ${values["text"]}
     $('#status').modal({
       show: true
     });
+
+
+
+
   }
 });

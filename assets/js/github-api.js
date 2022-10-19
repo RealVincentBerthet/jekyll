@@ -105,6 +105,7 @@ class GithubAPI {
             repo,
             ref,
             sha: newCommitSha,
+            force:  true,
         });
 
         return response;
